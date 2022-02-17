@@ -1,12 +1,12 @@
-import React from 'react'
-import NavigationBar from './components/NavigationBar'
-
+import React from "react";
+import NavigationBar from "./components/NavigationBar";
+import "./css/app.css";
 const App = () => {
   return (
-    <> 
-    <NavigationBar />
+    <>
+      <NavigationBar />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
