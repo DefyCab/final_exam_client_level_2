@@ -3,32 +3,32 @@ describe("Visitor can visit the application", () => {
     cy.visit("/");
   });
 
-  it("is expected to see a header", () => {
+  it("iscy.geted to see a header", () => {
     cy.get("[data-cy=main-header]").should("contain.text", "COURSE LIST");
   });
 
-  describe("is expected to see available course", () => {
-    it('is expected to display option "Workshops" ', () => {
-      expect("[data-cy=workshops").should("be.visible");
+  describe("iscy.geted to see available course", () => {
+    it('iscy.geted to display option "Workshops" ', () => {
+      cy.get("[data-cy=workshops").should("be.visible");
     });
 
-    it('is expected to display option "Testing" ', () => {
-      expect("[data-cy=testing").should("be.visible");
+    it('iscy.geted to display option "Testing" ', () => {
+      cy.get("[data-cy=testing").should("be.visible");
     });
 
-    it('is expected to display option Vue" ', () => {
-      expect("[data-cy=vue").should("be.visible");
+    it('iscy.geted to display option Vue" ', () => {
+      cy.get("[data-cy=vue").should("be.visible");
     });
 
-    it('is expected to display option "Productivity" ', () => {
-      expect("[data-cy=productivity").should("be.visible");
+    it('iscy.geted to display option "Productivity" ', () => {
+      cy.get("[data-cy=productivity").should("be.visible");
     });
 
-    it('is expected to display option "Node" ', () => {
-      expect("[data-cy=node").should("be.visible");
+    it('iscy.geted to display option "Node" ', () => {
+      cy.get("[data-cy=node").should("be.visible");
     });
-    it('is expected to display option "React" ', () => {
-      expect("[data-cy=react").should("be.visible");
+    it('iscy.geted to display option "React" ', () => {
+      cy.get("[data-cy=react").should("be.visible");
     });
   });
 });
