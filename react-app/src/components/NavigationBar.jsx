@@ -5,12 +5,12 @@ const NavigationBar = () => {
     <>
       <h1 data-cy="main-header">COURSE LIST</h1>
       <div id="container">
-        <h2 data-cy="workshops">Workshops</h2>
-        <h2 data-cy="testing">Testing</h2>
-        <h2 data-cy="vue">Vue</h2>
-        <h2 data-cy="productivity">Productivity</h2>
-        <h2 data-cy="node">Node</h2>
-        <h2 data-cy="react"> React</h2>
+        <button data-cy="workshops">Workshops</button>
+        <button data-cy="testing">Testing</button>
+        <button data-cy="vue">Vue</button>
+        <button data-cy="productivity">Productivity</button>
+        <button data-cy="node">Node</button>
+        <button data-cy="react"> React</button>
       </div>
     </>
   );
